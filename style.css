@@ -15,11 +15,11 @@ body {
   flex-direction: column;
 }
 
-h2 {
+h1 {
   font-size: 1.2em;
   color: #87c0f2;
   font-weight: 800;
-  margin-top: 10%;
+  margin-top: 0.8em;
 }
 
 p {
@@ -43,13 +43,13 @@ p {
 .card {
   min-height: 100px;
   min-width: 50px;
-  padding: 1.2em;
+  padding: 1em;
   margin: 15%;
   width: 15em;
-  height: 30em;
+  height: 28em;
   display: flex;
   background-color: rgb(255, 255, 255);
-  border-radius: 1em;
+  border-radius: 0.7em;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
@@ -59,7 +59,7 @@ p {
 
 .qrcode {
   width: 100%;
-  border-radius: 1em;
+  border-radius: 0.7em;
 }
 
 .text {
@@ -69,4 +69,14 @@ p {
 .attribution {
   margin-top: auto;
   bottom: 0;
+}
+
+footer {
+  height: 0.8em;
+  background-color: #d6e2f0;
+}
+
+a:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
 }
