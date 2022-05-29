@@ -63,3 +63,8 @@ p {
 .text {
   padding: 0 0.8em;
 }
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+}
