@@ -1,55 +1,65 @@
+@viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
+body {
+  min-height: 100px;
+  min-width: 100px;
+  margin: 0%;
+}
+
 h2 {
-    font-size: 22px;
-    color:#87C0F2;
-    font-weight: 800;
-    margin-top: 30px;
+  font-size: 1.2em;
+  color: #87c0f2;
+  font-weight: 800;
+  margin-top: 10%;
 }
 
 p {
-    margin: 0;
-    color:rgb(118, 118, 118);
-    font-size: 15px;
-    font-weight: 400;
+  color: rgb(118, 118, 118);
+  font-size: 0.8em;
+  font-weight: 400;
 }
 
-footer {
-    background-color: hsl(212, 45%, 89%);
-    margin: -8px;
-    padding-bottom: 10px;
-
-}
 .wrapper {
-    font-family: Outfit;
-    margin: -8px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(images/cloudBg.png);
-    background-size: 100%;
+  font-family: Outfit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/cloudBg.png);
+  background-size: 100%;
+  min-height: 1000px;
 }
 
 .card {
-    padding: 20px 20px 20px;
-    margin: 200px;
-    width: 26vw;
-    height: 41vw;
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    text-align: center;
+  min-height: 100px;
+  min-width: 50px;
+  padding: 1.2em;
+  margin: 15%;
+  width: 15em;
+  height: 30em;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: center;
 }
 
 .qrcode {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 1em;
 }
 
 .text {
-    padding: 0px 14px;
+  padding: 0 0.8em;
 }
